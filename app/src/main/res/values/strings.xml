@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Fcitx 5</string>
+    <string name="title_activity_settings_main">SettingsMainActivity</string>
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="schema_manager_header">Schema Manager</string>
+    <string name="layout_picker">Layout Picker</string>
+    <string name="ime_preference_header">Preferences</string>
+    <string name="advanced_settings_header">Advanced Settings</string>
+    <string name="dictionary_manager_header">Dictionary Manager</string>
+    <string name="settings__menu_about">About</string>
+
+</resources>

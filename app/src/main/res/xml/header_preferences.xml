@@ -1,0 +1,43 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:fragment="io.wp.fcitx5.settings.fragments.SchemaManagerFragment"
+        app:key="schema_manager_header"
+        app:title="@string/schema_manager_header" />
+
+    <Preference
+        app:fragment="io.wp.fcitx5.settings.fragments.LayoutPickerFragment"
+        app:key="layout_picker_header"
+        app:title="@string/layout_picker" />
+
+    <Preference
+        app:fragment="io.wp.fcitx5.settings.fragments.DictionaryManagerFragment"
+        app:key="dictionary_manager_header"
+        app:title="@string/dictionary_manager_header" />
+
+    <Preference
+        app:fragment="io.wp.fcitx5.settings.fragments.ImePreferenceFragment"
+        app:key="ime_preference_header"
+        app:title="@string/ime_preference_header" />
+
+    <Preference
+        app:fragment="io.wp.fcitx5.settings.fragments.AdvancedSettingsFragment"
+        app:key="advanced_settings_header"
+        app:title="@string/advanced_settings_header" />
+
+
+
+    <!--
+    <Preference
+        app:fragment="io.wp.fcitx5.settings.SettingsMainActivity$MessagesFragment"
+        app:icon="@drawable/messages"
+        app:key="messages_header"
+        app:title="@string/messages_header" />
+
+    <Preference
+        app:fragment="io.wp.fcitx5.settings.SettingsMainActivity$SyncFragment"
+        app:icon="@drawable/sync"
+        app:key="sync_header"
+        app:title="@string/sync_header" /> -->
+
+</PreferenceScreen>
